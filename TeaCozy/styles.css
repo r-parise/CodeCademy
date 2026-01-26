@@ -3,12 +3,16 @@
   font-size: 22px;
   color: seashell;
   background-color: black;
-  opacity: 0.9;
   text-align: center;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .top-logo {
-  width: 50px;
+  width: 10%;
   margin: 10px;
 }
 
@@ -28,23 +32,83 @@ header {
 
 h2 {
   font-size: 36px;
-  margin: 20px;
-  text-align: center;
-  justify-content: center;
+  background-color: transparent;
 }
 
 h4 {
   font-size: 24px;
+  background-color: transparent;
+}
+
+div.mission-container {
+  height: 700px;
+  position: relative;
+  text-align: center;
+  background-color: black;
+  background-image: url(images/img-mission-background.webp);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mission-header {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+
+.mission-text {
+  position: relative;
+  text-align: center;
+  padding: 0 20px;
+}
+
+div.menu {
+  max-width: 1000px;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.menu-item {
+  text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.menu-item-image {
+  height: 200px;
+  width: 300px;
+}
+
+.location-block {
+  height: 500px;
+  padding: 20px;
+  background-size: cover;
+  background-position: center;
+  background-image: url(images/img-locations-background.webp);
+}
+
+.location-block ul {
+  width: 300px;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 10px;
+}
+.location-block li {
+  text-decoration: none;
   margin: 20px;
 }
 
-div.mission {
-  height: 700px;
-  text-align: center;
-  justify-content: center;
-  background-color: black;
-  display: block;
+footer {
+  text-align: left;
+  padding: 20px;
 }
-
-
-
