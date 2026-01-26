@@ -1,0 +1,46 @@
+  <div class="tea-month">
+    <h2>Tea of the Month</h2>
+    <h4>What's steeping at The Tea Cozy?</h4>
+    <div class="tea-grid">
+      <div class="tea-item">
+        <img
+          class="monthly-tea-image"
+          src="images/img-berryblitz.webp"
+          alt="Fall Berry Blitz Tea"
+        />
+        <p>Fall Berry Blitz Tea</p>
+      </div>
+      <div class="tea-item">
+        <img
+          class="monthly-tea-image"
+          src="images/img-spiced-rum.webp"
+          alt="Spiced Rum Tea"
+        />
+        <p>Spiced Rum Tea</p>
+      </div>
+      <div class="tea-item">
+        <img
+          class="monthly-tea-image"
+          src="images/img-donut.webp"
+          alt="Seasonal Donuts"
+        />
+        <p>Seasonal Donuts</p>
+      </div>
+      <div class="tea-item">
+        <img
+          class="monthly-tea-image"
+          src="images/img-myrtle-ave.jpg"
+          alt="Myrtle Ave Tea"
+        />
+        <p>Myrtle Ave Tea</p>
+      </div>
+      <div class="tea-item">
+        <img
+          class="monthly-tea-image"
+          src="images/img-bedford-bizarre.webp"
+          alt="Bedford Bizarre Tea"
+        />
+        <p>Bedford Bizarre Tea</p>
+      </div>
+    </div>
+  </div>
